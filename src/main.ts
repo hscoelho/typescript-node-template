@@ -1,8 +1,3 @@
-console.log("Hello, World");
+// tests are not allowed in the main.ts
 
-if (import.meta.vitest) {
-  const { it, expect } = import.meta.vitest
-  it('sum', () => {
-    expect(1 + 1).toBe(2);
-  })
-}
+console.log("Hello, World");
